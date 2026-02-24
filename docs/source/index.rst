@@ -24,3 +24,10 @@ to set up SKUs, set pricing, configure plans, in order to monetize any custom re
    metric.rst
    ingestion.rst
    conclusion.rst
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
