@@ -15,7 +15,7 @@ To create the plan, following fields needs to be provided:
 - **OfferedStartDate** - date when the plan should start being used for billing (string)
 - **SkuPrices** - optional filed of SKU prices, can be set to *null*
 
-Below is the example of bash script that uploads the SKUs::
+Below is the example of bash script that uploads the billing plan::
 
     #!/bin/bash
 
