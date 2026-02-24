@@ -19,7 +19,7 @@ Below is the example of bash script that uploads the SKUs
     API_KEY="<key>"
     API_VERSION="v1.0"
 
-    # load the skus
+    # load the SKUs
     curl --silent -H "X-API-Key: ${API_KEY}" -H "Content-Type: application/json" "${SERVER}/api/${API_VERSION}/sku" -X POST -d '{ "id":  "1", "name": "cpu001ram001", "unit": "Instance" }'
     curl --silent -H "X-API-Key: ${API_KEY}" -H "Content-Type: application/json" "${SERVER}/api/${API_VERSION}/sku" -X POST -d '{ "id":  "2", "name": "cpu001ram002", "unit": "Instance" }'
     curl --silent -H "X-API-Key: ${API_KEY}" -H "Content-Type: application/json" "${SERVER}/api/${API_VERSION}/sku" -X POST -d '{ "id":  "3", "name": "cpu002ram004", "unit": "Instance" }'
@@ -30,7 +30,7 @@ API responses
 #############
 
 201 Created
-============
+************
 
 **Description:** Item successfully created.
 
@@ -45,12 +45,12 @@ API responses
     }
 
 400 Bad Request
-===============
+****************
 
 **Description:** Invalid input data.
 
 409 Conflict
-============
+*************
 
 **Description:** Item already exists.
 
@@ -63,7 +63,7 @@ API responses
     }
 
 500 Unexpected error
-=====================
+*********************
 
 **Description:** Unexpected server error occured.
 
