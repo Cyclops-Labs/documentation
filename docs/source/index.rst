@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Cyclops customization documentation
+Cyclops customization
 ===================================
 Cyclops stack is a purpose built scalable platform designed to handle tracking, measuring 
 millions of modern datacenter resources such as compute nodes, networking elements, storage
