@@ -1,9 +1,9 @@
-.. Cyclops Documentation documentation master file, created by
+.. Cyclops documentation master file, created by
    sphinx-quickstart on Tue Feb 24 18:16:15 2026.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Cyclops Documentation documentation
+Cyclops documentation
 ===================================
 
 Add your content using ``reStructuredText`` syntax. See the
