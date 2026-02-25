@@ -18,9 +18,9 @@ to set up SKUs, set pricing, configure plans, in order to monetize any custom re
    :caption: Contents:
 
    overview.rst
+   plan.rst
    sku.rst
    pricing.rst
-   plan.rst
    metric.rst
    ingestion.rst
    conclusion.rst
