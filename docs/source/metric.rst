@@ -21,3 +21,9 @@ The data model for *usage-based* reporting is:
 - **Time** – Timestamp indicating when the usage record was created. Must be in *Unix timestamp* format.
 - **Unit** – The unit of the **Usage** field (for example, "GB").
 - **Usage** – The measured value (for example, disk size), expressed in the unit defined by **Unit**.
+
+Requirements for the ``Time`` field:
+
+- Must be a Unix timestamp (seconds since epoch)
+- Must be expressed in UTC
+- Must represent the actual measurement time
