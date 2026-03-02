@@ -16,7 +16,7 @@ The data model for *usage-based* reporting is:
     }
 
 - **Account** – Refers to the billed user account ID. It is used for grouping billing data per billable user. It should be a unique identifier defined externally to the Cyclops system.
-- **Metadata** – Additional data provided as JSON that may be useful for further processing. For example, the "region" where the billed resource is deployed or the resource name/ID.
+- **Metadata** – Additional data provided as JSON that may be useful for further processing.
 - **ResourceType** – Defined when creating SKUs. This corresponds to the SKU name.
 - **Time** – Timestamp indicating when the usage record was created. Must be in *Unix timestamp* format.
 - **Unit** – The unit of the **Usage** field (for example, "GB").
@@ -27,3 +27,8 @@ Requirements for the ``Time`` field:
 - Must be a Unix timestamp (seconds since epoch)
 - Must be expressed in UTC
 - Must represent the actual measurement time
+
+``Metadata field`` should contain the data field used for unique resource recognition. For example:
+
+- S3 storage metadata: ``{ "region": "<deployment region>", "bucket": "<bucket name>" }``
+- HEAppE metadata: ``{ "account": "<account string>", "resourceID": "<cluster node ID>", "resourceName": "<cluster node name>" }``
